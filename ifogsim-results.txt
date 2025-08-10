@@ -1,0 +1,28 @@
+Starting Fog-Enabled Precision Agriculture Simulation...
+Creating cloudModule on device cloud
+Creating healthAnalysisModule on device fog-node
+Creating biometricModule on device edge-device
+0.0 Submitted application precision-agriculture-monitoring
+=========================================
+============== RESULTS ==================
+=========================================
+EXECUTION TIME : 232
+=========================================
+APPLICATION LOOP DELAYS
+=========================================
+[GYROSCOPE, biometricModule, healthAnalysisModule, cloudModule, EMERGENCY_ALERT] ---> 34.162499999999966
+[PROXIMITY, biometricModule, healthAnalysisModule, HEALTH_NOTIFICATION] ---> 13.651647286821639
+=========================================
+TUPLE CPU EXECUTION DELAY
+=========================================
+_BIOMETRIC_TO_ANALYSIS_ ---> 0.41249999999990905
+GYROSCOPE ---> 3.0
+_ANALYSIS_TO_CLOUD_ ---> 0.21000000000003638
+ACCELEROMETER ---> 3.0
+PROXIMITY ---> 1.4500000000000455
+=========================================
+cloud : Energy Consumed = 3701548.874999916
+fog-node : Energy Consumed = 240755.0000000157
+edge-device : Energy Consumed = 239058.5
+Cost of execution in cloud = 81239.10000000965
+Total network usage = 21258.8

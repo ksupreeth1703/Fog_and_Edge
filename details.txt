@@ -1,0 +1,11 @@
+Development region: eu-north-1
+Account ID: 887344123395
+
+Created IAM User with the following details:
+Name: AdminUser
+Password: Aws@1234
+Access Key ID: AKIA45GOUZYB5X5NWBPW
+Secret Access Key: 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
+
+Created setup_aws_iot.bat and executed it
+Created aws_simulation.py and executed it
