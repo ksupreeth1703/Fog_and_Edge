@@ -1,0 +1,15 @@
+{
+  "endpoint": "a1f1sls96wcx19-ats.iot.eu-north-1.amazonaws.com",
+  "thing_name": "AgricultureEdgeDevice",
+  "certificate_path": "aws-iot-certs/device-certificate.pem.crt",
+  "private_key_path": "aws-iot-certs/private-key.pem.key",
+  "root_ca_path": "aws-iot-certs/AmazonRootCA1.pem",
+  "client_id": "precision-agriculture-device",
+  "topics": {
+    "biometric_data": "agriculture/edge/AgricultureEdgeDevice/biometric",
+    "health_analysis": "agriculture/fog/AgricultureEdgeDevice/health-analysis",
+    "cloud_analysis": "agriculture/cloud/AgricultureEdgeDevice/cloud-analysis",
+    "emergency_alerts": "agriculture/actuators/AgricultureEdgeDevice/emergency",
+    "health_notifications": "agriculture/actuators/AgricultureEdgeDevice/notifications"
+  }
+}
